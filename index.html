@@ -4,6 +4,46 @@
     <title>Signup Form</title>
   </head>
   <body>
-    
+    <header>
+      <h1>Signup Form</h1>
+    </header>
+
+    <main>
+      <form action="" method="get">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="myEmail@example.com">
+        <br/>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br/>
+
+        <label for="githubUsername">Github Username:</label>
+        <input type="text" id="githubUsername" name="githubUsername">
+        <br/>
+
+        <fieldset>
+          <legend>Select Plan:</legend>
+
+          <input type="radio" id="enterprise" name="plan" value="enterprise">
+          <label for="enterprise">Enterprise</label>
+          <br/>
+
+          <input type="radio" id="pro" name="plan" value="pro">
+          <label for="pro">Pro</label>
+          <br/>
+
+          <input type="radio" id="free" name="plan" value="free">
+          <label for="free">Free</label>
+          <br/>
+        </fieldset>
+
+        <input type="checkbox" id="rememberMe" name="rememberMe">
+        <label for="rememberMe">Remember Me</label>
+        <br/>
+
+        <input type="submit" value="Submit Request">
+      </form>
+    </main>
   </body>
 </html>
